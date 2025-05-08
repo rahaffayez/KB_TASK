@@ -4,7 +4,7 @@
   =>
   (printout t "The animal is a " ?type "." crlf))
 
-(assert (animal lion))
+(assert (animal donkey))
 (assert (animal dog))
-(assert (animal elephant))
+(assert (animal cow))
 (run)
