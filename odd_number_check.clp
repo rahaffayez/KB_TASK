@@ -4,7 +4,7 @@
   =>
   (printout t "The number " ?n " is odd." crlf))
 
+(assert (number 5))
+(assert (number 8))
 (assert (number 3))
-(assert (number 10))
-(assert (number 7))
 (run)
